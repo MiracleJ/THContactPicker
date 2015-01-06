@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
 
   s.license      = 'MIT'
   s.author       = { 'Tristan Himmelman' => '' }
-  s.source       = { :git => 'https://github.com/tristanhimmelman/THContactPicker.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/MiracleJ/THContactPicker', :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.1'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.source_files = 'Classes/**/*.{h,m}'
   
